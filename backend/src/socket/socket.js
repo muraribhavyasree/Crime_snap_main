@@ -6,7 +6,8 @@ function initializeSocket(server) {
       origin: [
         "https://crimesnap.netlify.app",
         "https://crimesnap1411.netlify.app",
-        "https://crimesnap1517.netlify.app"
+        "https://crimesnap1517.netlify.app",
+        "https://crimesnap24.netlify.app"
       ],
       methods: ["GET", "POST"]
     }
