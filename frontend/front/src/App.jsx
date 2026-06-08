@@ -30,11 +30,11 @@ import AdminOfficers from "./pages/AdminDashboard/AdminOfficers";
 import AdminLocations from "./pages/AdminDashboard/AdminLocations";
 import UpdateStatus from "./pages/AdminDashboard/UpdateStatus";
 
-/* OFFICER */
+/* OFFICER 
 import OfficerLogin from "./pages/officer/OfficerLogin";
 import OfficerDashboard from "./pages/officer/OfficerDashboard";
 
-/* ================= PROTECTED ROUTES ================= */
+ ================= PROTECTED ROUTES ================= */
 
 const RequireUser = ({ children }) => {
   const token = localStorage.getItem("token");
