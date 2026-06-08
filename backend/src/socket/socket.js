@@ -4,10 +4,8 @@ function initializeSocket(server) {
   const io = new Server(server, {
     cors: {
       origin: [
-        "https://crimesnap.netlify.app",
-        "https://crimesnap1411.netlify.app",
-        "https://crimesnap1517.netlify.app",
-        "https://crimesnap24.netlify.app"
+        "https://crimesnap24.netlify.app",
+        "https://crimesnap245.netlify.app"
       ],
       methods: ["GET", "POST"]
     }
