@@ -24,7 +24,7 @@ export default function MyComplaints() {
       }
 
       const res = await axios.get(
-        "https://crime-snap-main-1.onrender.com/api/complaints/my",
+        "https://crime-snap-main-3.onrender.com/api/complaints/my",
         {
           headers: {
             Authorization: `Bearer ${token}`,

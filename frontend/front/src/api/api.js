@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://crime-snap-main-1.onrender.com/api"
+  baseURL: "https://crime-snap-main-3.onrender.com/api"
 });
 
 API.interceptors.request.use((config) => {

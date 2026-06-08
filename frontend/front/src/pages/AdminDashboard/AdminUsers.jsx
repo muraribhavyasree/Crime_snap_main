@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import "../../styles/adminreports.css";
 
-const BASE_URL = "https://crime-snap-main-1.onrender.com";
+const BASE_URL = "https://crime-snap-main-3.onrender.com";
 
 export default function AdminUsers() {
   const [users, setUsers] = useState([]);

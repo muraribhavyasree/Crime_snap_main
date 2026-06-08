@@ -7,7 +7,8 @@ function initializeSocket(server) {
         "https://crimesnap24.netlify.app",
         "https://crimesnap245.netlify.app"
       ],
-      methods: ["GET", "POST"]
+      methods: ["GET", "POST"],
+      credentials: true
     }
   });
 
