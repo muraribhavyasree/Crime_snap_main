@@ -148,7 +148,8 @@ export default function App() {
       <Route path="/admin/login" element={<AdminLogin />} />
       <Route path="/admin/register" element={<AdminRegister />} />
 
-      <Route path="/officer/login" element={<OfficerLogin />} />
+      {/* ================= OFFICER ================= 
+      <Route path="/officer/login" element={<OfficerLogin />} />*/}
 
       {/* ================= USER ================= */}
       <Route
@@ -183,7 +184,7 @@ export default function App() {
         <Route path="locations" element={<AdminLocations />} />
       </Route>
 
-      {/* ================= OFFICER ================= */}
+      {/* ================= OFFICER ================= 
       <Route path="/officer/login" element={<OfficerLogin />} />
 
       <Route
@@ -195,7 +196,7 @@ export default function App() {
         }
       />
 
-      {/* ================= FALLBACK ================= */}
+     ================= FALLBACK ================= */}
       <Route path="*" element={<Navigate to="/" replace />} />
 
     </Routes>
