@@ -22,7 +22,6 @@ app.get("/", (req, res) => {
 app.use("/api/auth", require("./routes/auth.route"));
 app.use("/api/admin", require("./routes/admin.route"));
 app.use("/api/complaints", require("./routes/complaint.route"));
-app.use("/api/officer/complaints", require("./routes/officer.complaints.route"));
 app.use("/api/locations", require("./routes/adminLocation"));
 
 /* ================= 404 ================= */
