@@ -3,11 +3,7 @@ const { Server } = require("socket.io");
 function initializeSocket(server) {
   const io = new Server(server, {
     cors: {
-      origin: [
-        "https://crimesnap24.netlify.app",
-        "https://crimesnap245.netlify.app",
-        "https://crimesnap26.netlify.app"
-      ],
+      origin: ["https://crimesnap26.netlify.app"],
       methods: ["GET", "POST"],
       credentials: true
     }

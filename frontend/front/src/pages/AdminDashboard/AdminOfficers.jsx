@@ -99,7 +99,7 @@ export default function AdminOfficers() {
               return (
                 <tr key={officer._id}>
                   <td>{officer.name}</td>
-                  <td>{officer.badgeNo}</td>
+                  <td>{officer.badgeNumber}</td>
                   <td>{officer.rank}</td>
                   <td>{officer.station}</td>
 
